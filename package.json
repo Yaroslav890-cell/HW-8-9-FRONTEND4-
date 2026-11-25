@@ -1,0 +1,28 @@
+{
+  "name": "hw-8-frontend4-",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaroslav890-cell/HW-8-FRONTEND4-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yaroslav890-cell/HW-8-FRONTEND4-/issues"
+  },
+  "homepage": "https://github.com/Yaroslav890-cell/HW-8-FRONTEND4-#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.10"
+  }
+}

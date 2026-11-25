@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мої закладки та форма</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="container" id="bookmarkApp">
+    <h1>Закладки</h1>
+    <input type="text" id="bookmarkInput" placeholder="URL">
+    <button id="addBookmarkBtn">Додати</button>
+    <ul id="bookmarkList"></ul>
+  </div>
+
+  
+<div class="container" id="formApp">
+  <h1>Форма</h1>
+
+  <input type="text" id="username" placeholder="Логін">
+
+  <input type="text" id="surname" placeholder="Прізвище">
+
+  <input type="email" id="email" placeholder="Електронна пошта">
+
+  <input type="tel" id="phone" placeholder="Номер телефону">
+
+  <input type="password" id="password" placeholder="Пароль">
+
+  <button id="saveBtn">Зберегти</button>
+</div>
+
+
+
+
+  <div class="container" id="productsApp">
+    <h1>Наші товари</h1>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Пошук товарів..."
+    >
+    <div id="productsList"></div>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
